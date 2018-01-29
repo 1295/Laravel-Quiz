@@ -18,7 +18,6 @@
 - For social login - fill in the credentials of your social apps in .env file
 - That's it - allow people to register and take quizzes!
 
-## License
-
-Basically, feel free to use and re-use any way you want.
-"# Laravel-Quiz" 
+#### 
+The social logins have been implemented.
+Only need to go to your Facebook dashboard(developers.facebook.com) and Get the app ID and Secret Key

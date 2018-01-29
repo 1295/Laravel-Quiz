@@ -44,3 +44,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('results', 'ResultsController');
     Route::post('results_mass_destroy', ['uses' => 'ResultsController@massDestroy', 'as' => 'results.mass_destroy']);
 });
+
+Route::get('profile', 'HomeController@profile');
+Route::post('profile', 'HomeController@update_avatar');
